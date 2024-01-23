@@ -1,0 +1,61 @@
+header{
+    
+    height: 110px;
+    background-color: rgb(240, 141, 2);
+}
+ p{
+font-size: 22px;
+}
+.img1{
+    flex-direction: row;
+    
+}
+.img1 img{
+    padding: 30px;
+    width: 400px;
+    height: 400px;
+}
+.img2{
+    flex-direction: row;
+    
+}
+.img2 img{
+    padding: 30px;
+    width: 300px;
+    height: 300px;
+}
+.img3{
+    flex-direction: row;
+    
+}
+.img3 img{
+    padding: 30px;
+    width: 300px;
+    height: 300px;
+}
+.img4{
+    flex-direction: row;
+    
+}
+.img4 img{
+    padding: 30px;
+    width: 300px;
+    height: 300px;
+}
+.note p{
+    font-size: 13px;
+}
+footer{
+  height: 70px;
+    background-color: rgb(240, 141, 2);  
+}
+.link
+{
+    margin-bottom: 10px;
+}
+@media(max-width:480px){
+    main{
+        flex-direction: column;
+    }
+    
+}
